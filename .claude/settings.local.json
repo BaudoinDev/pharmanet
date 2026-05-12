@@ -8,7 +8,9 @@
       "Bash(php --ini)",
       "Bash(php -r \"echo phpversion\\(\\); echo '\\\\n'; echo php_ini_loaded_file\\(\\);\")",
       "Bash(git add *)",
-      "Bash(git reset *)"
+      "Bash(git reset *)",
+      "Bash(git rm *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
