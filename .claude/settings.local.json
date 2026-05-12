@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan *)",
+      "Bash(php -r \"echo json_encode\\(array_keys\\(json_decode\\(file_get_contents\\('composer.json'\\), true\\)['require']\\), JSON_PRETTY_PRINT\\);\")",
+      "PowerShell(\"done\")",
+      "Bash(php -r \"echo extension_loaded\\('zip'\\) ? 'zip OK' : 'zip MANQUANT';\")",
+      "Bash(php --ini)",
+      "Bash(php -r \"echo phpversion\\(\\); echo '\\\\n'; echo php_ini_loaded_file\\(\\);\")",
+      "Bash(git add *)",
+      "Bash(git reset *)"
+    ]
+  }
+}
